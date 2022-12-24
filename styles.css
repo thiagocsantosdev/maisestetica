@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+   background-color: #AB2346;
+    
+}
+header h1{
+    margin-left: 1rem;
+    color: white;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+aside{
+ display: flex;
+ justify-content: center;
+ margin-top: 2rem;
+}
+aside img{
+    border-radius: 50px;
+    width: 50vw;
+
+}
+.container p{
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    color: #1c1c1c;
+}
+.container{
+    
+    height: 200px;
+}
+.container2{
+    line-height: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    flex-direction: column;
+    color:  #AB2346;
+}
+.container2 h3{
+    font-size: 1rem;
+    color: rgb(65, 63, 63);
+}
+.container2 p{
+    font-size:0.8rem;
+    color:rgb(74, 75, 75)
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color:  #AB2346;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container3 button{
+    border-radius: 15px;
+    padding: 12px;
+    background-color: gold;
+
+}
+.container3 p{
+ margin:1rem;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(74, 75, 75);
+    
+}
+.container4 img{
+    width: 80vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 50px;
+
+}
+.container4 p {
+    margin: 1rem;
+}
+.container4 img{
+  margin-top: 4rem;
+}
+.container4 h2{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid  #AB2346;
+}
+.container4-plus{
+    display: flex;
+    background-color:  #AB2346;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: white;
+}
+.container4-plus h2{
+    color: gold;
+    font-style: italic;
+    margin-bottom: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.container5-subtitle{
+    color: #484444;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin:0rem 2rem 2rem 2rem
+}
+.container5 img{
+    width: 26vw;
+    border-radius: 50px;
+}
+.container5 h2{
+    border-bottom: 3px solid  #AB2346;
+}
+.profissão{
+    color: lightslategray;
+    line-height: 0px;
+    margin-top: -6px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+    background-color: #AB2346;
+
+}
+footer nav ul {
+    display: flex;
+    list-style:none;
+    gap:1rem;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    color: green;
+    font-size: 2rem;
+    padding: 0px;
+}
+.new img{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    opacity: 0.9;
+    position: relative;
+    filter: brightness(0.5);
+}
+.new p{
+    position: absolute;
+    top:100vw;
+    left:2vw;
+    font-family: impact;
+    font-size:2rem;
+    color: white;  
+}
+.falar-com-especialista{
+    position: absolute;
+    top:160vw;
+    left:2vw;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #AB2346;
+    color: white;
+}
